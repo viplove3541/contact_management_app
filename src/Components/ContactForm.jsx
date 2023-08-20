@@ -43,7 +43,7 @@ function ContactForm() {
                     First Name
                 </label>
                 <input
-                    className="w-full border border-gray-400 p-2 rounded-md"
+                    className="w-full border border-blue-400 p-2 rounded-md"
                     id="first-name"
                     type="text"
                     name="first_name"
@@ -56,7 +56,7 @@ function ContactForm() {
                     Last Name
                 </label>
                 <input
-                    className="w-full border border-gray-400 p-2 rounded-md"
+                    className="w-full border border-blue-400 p-2 rounded-md"
                     id="last-name"
                     type="text"
                     name="last_name"
@@ -69,7 +69,7 @@ function ContactForm() {
                     Mobile Number
                 </label>
                 <input
-                    className="w-full border border-gray-400 p-2 rounded-md"
+                    className="w-full border border-blue-400 p-2 rounded-md"
                     id="last-name"
                     type="number"
                     name="mob"
@@ -84,7 +84,7 @@ function ContactForm() {
                     Status
                 </label>
                 <select
-                    className="w-full border border-gray-400 p-2 rounded-md"
+                    className="w-full border border-blue-400 p-2 rounded-md"
                     id="status"
                     name="status"
                     value={form.status}
@@ -95,7 +95,7 @@ function ContactForm() {
                 </select>
             </div>
             <button
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                className="bg-gray-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                 onClick={handleSave}
             >
                 Save Contact
