@@ -1,5 +1,6 @@
 import contact from '../utils/contact-book.png';
 import bar from '../utils/bar-chart.png';
+import git from '../utils/Git.png'
 import { Link } from "react-router-dom"
 export default function Sidebar() {
     return (
@@ -28,6 +29,15 @@ export default function Sidebar() {
                                     <span>Charts And Maps</span>
                                 </Link>
                             </li>
+                            <li className="rounded-sm">
+                                <a
+                                      href='https://github.com/viplove3541/contact_management_app' target="_blank"
+                                    className="flex items-center p-2 space-x-3 rounded-md">
+                                    <img src={git} alt="" />
+                                    <span>GitHub Repo</span>
+                                </a>
+                            </li>
+                            
                         </ul>
                     </div>
                 </div>
